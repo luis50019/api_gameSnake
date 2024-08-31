@@ -1,7 +1,8 @@
 import cors from 'cors';
 
 const ACCEPT_ORIGINS = [
-  'http://localhost:5173'
+  'http://localhost:5173',
+  'https://snake-k4pu.onrender.com'
 ]
 
 export const middlewareCors =({acceptedOrigins = ACCEPT_ORIGINS} ={})=>{
